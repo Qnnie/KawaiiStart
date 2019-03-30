@@ -27,9 +27,12 @@ body {
     background-image: url(../images/Wallpaper1.jpg);
     background-size: cover;
     color: white;
+    margin-bottom: 0px;
 }
 
 #particles-js {
+    position: absolute;
+    margin-top: 0px;
     width: 100%;
     height: 100%;
 }
