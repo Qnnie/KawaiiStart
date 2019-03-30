@@ -104,7 +104,7 @@ nav ul li ul {
     display: none;
     position: absolute;
     background-color: var(--menu-color);
-    border-radius: 16px 16px 6px 6px;
+    border-radius: 16px 16px 0px 0px;
 }
 
 #sub-menu-1 {
@@ -116,7 +116,7 @@ nav ul li ul {
 }
 
 #sub-menu-3 {
-    margin-top: -220px;
+    margin-top: -223px;
 }
 
 nav ul li:hover ul {
