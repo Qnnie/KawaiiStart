@@ -35,20 +35,20 @@ Create a new one or replace an existing one.
 
 ### Background and Theme colors: 
 
-To add a new background image put it in the images folder underneath Wallpaper[lastnumber+1] and make it jpg
+To add a new background image put it in the images folder underneath Wallpaper[lastnumber+1] and make it jpg <br>
 Open up js/theme.js, and look for 
 ``` javascript
   var currentBackground = getRandomIntInclusive(1, 2);//How many wallpapers on the right
 ```
-    change the right side number to include your new wallpaper.
-    ### Color Theme
+change the right side number to include your new wallpaper.
+### Color Theme
 ``` javascript
 var colors = [
     ['#9E9CB1','#7A7994','#C0BCCD','#2C3350', dark], //Wallpaper1
     ['#DABEC3','#C1A7B1','#F3D9D7','#866E76', dark]  //Wallpaper2
 ]; 
 ```    
-    Create a new sub array like so
+### Create a new sub array like so
 ``` javascript
     var colors = [
     ['#9E9CB1','#7A7994','#C0BCCD','#2C3350', dark], //Wallpaper1
