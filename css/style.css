@@ -3,8 +3,6 @@
     Hopefully things are organized enough!
     Version: 1.0
 */
-
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 
 
@@ -20,6 +18,7 @@
 * {
     margin: 0px;
 }
+html, body{height: 100%;}
 
 body {
     /*font-family: 'Montserrat', sans-serif;*/
