@@ -29,6 +29,10 @@ body {
     color: white;
 }
 
+#particles-js {
+    height: 1vh;
+}
+
 #main {
     background-size: cover;
     background-position: center;
