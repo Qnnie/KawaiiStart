@@ -35,7 +35,7 @@ Create a new one or replace an existing one.
 
 ### Background and Theme colors: 
 
-To add a new background image put it in the images folder underneath Wallpaper[lastnumber+1] and make it jpg <br>
+To add a new background image go to the images folder and name your image Wallpaper[next-number].jpg <br>
 Open up js/theme.js, and look for 
 ``` javascript
   var currentBackground = getRandomIntInclusive(1, 2);//How many wallpapers on the right
