@@ -35,9 +35,9 @@ body {
     height: 100%;    
 }
 
-/*::-webkit-scrollbar { 
+::-webkit-scrollbar { 
     display: none; 
-}*/
+}
 
 #main {
     background-size: cover;
