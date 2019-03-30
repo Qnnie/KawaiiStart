@@ -29,6 +29,7 @@ body {
     background-image: url(../images/Wallpaper1.jpg);
     background-size: cover;
     color: white;
+    overflow-y:hidden;
 }
 
 #main {
