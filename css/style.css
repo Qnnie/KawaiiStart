@@ -61,7 +61,7 @@ body {
     border-color: var(--color-4);
     border-radius: 15px;
     font-family: 'ZCOOL XiaoWei', serif;
-    z-index: 0;
+    z-index: 2;
 }
 
 #clock {
