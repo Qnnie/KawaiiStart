@@ -1,0 +1,156 @@
+/*
+    Github: Qnnie
+    Hopefully things are organized enough!
+    Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
+
+:root {
+    --menu-color: rgba(26,26,26,.98);
+    --color-1: #9E9CB1;
+    --color-2: #7A7994;
+    --color-3: #C0BCCD;
+    --color-4: #2C3350;
+
+}
+
+* {
+    margin: 0px;
+}
+html, body{height: 1vh;}
+
+body {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-image: url(../images/Wallpaper1.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#particles-js {
+    position: absolute; top:0;
+    width: 100%;
+    height: 100%;    
+    z-index: -1;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#main {
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 35%;
+    height: 100px;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px var(--color-4);
+    color: white;
+}
+
+#google-search {
+    width: 100%;
+    height: 30px;
+    border-width: 3px;
+    border-color: var(--color-4);
+    border-radius: 15px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    z-index: 1;
+}
+
+#clock {
+    float: right;
+}
+
+/*==================================*/
+             /*MENU*/
+/*==================================*/
+
+nav {
+    background-color: var(--menu-color);
+    width: 100%;
+    height: 50px;
+    line-height: 45px;
+    position: absolute; 
+    font-size: 20px;
+    bottom: 0px !important;
+}
+nav ul {
+    float: left;
+}
+        
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-right: 30px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: var(--menu-color);
+    border-radius: 16px 16px 0px 0px;
+}
+
+#sub-menu-1 {
+    margin-top: -178px;
+}
+
+#sub-menu-2 {
+    margin-top: -178px;
+}
+
+#sub-menu-3 {
+    margin-top: -223px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+    /*inner links*/
+nav ul li ul li {
+    width: 180px;
+}
+
+#category-1 {
+    color: var(--color-1);
+}
+
+#category-1 *:hover {
+    color: var(--color-1);
+}
+
+#category-2 {
+    color: var(--color-2);
+}
+
+#category-2 *:hover {
+    color: var(--color-2);
+}
+
+#category-3 {
+    color: var(--color-3);
+}
+
+#category-3 *:hover {
+    color: var(--color-3);
+}
+/*==================================*/
+            /*END MENU*/
+/*==================================*/
