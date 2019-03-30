@@ -10,7 +10,7 @@ Features
     <li>Dynamic Backgrounds</li>
   </ul>
   
-Use
+Customize
 -------------------------------
 ### Adding Menu Options
 
@@ -33,7 +33,7 @@ Create a new one or replace an existing one.
 }
 ```
 
-###Background and Theme colors: 
+### Background and Theme colors: 
 <ol>
   <li>To add a new background image put it in the images folder underneath Wallpaper[lastnumber+1] and make it jpg</li>
   <li>Open up js/theme.js, and look for 
@@ -42,12 +42,14 @@ Create a new one or replace an existing one.
 ```
     change the right side number to include your new wallpaper.
   </li>
-  <li>###Color Theme
+  <li> 
+    ### Color Theme
 ``` javascript
 var colors = [
     ['#9E9CB1','#7A7994','#C0BCCD','#2C3350', dark], //Wallpaper1
     ['#DABEC3','#C1A7B1','#F3D9D7','#866E76', dark]  //Wallpaper2
-];```    
+]; 
+```    
     Create a new sub array like so
 ``` javascript
     var colors = [
@@ -58,4 +60,4 @@ var colors = [
   </li>
 </ol>
 
-###You're done, have fun.
+### You're done, have fun.
