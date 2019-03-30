@@ -23,6 +23,8 @@
 
 body {
     /*font-family: 'Montserrat', sans-serif;*/
+    width:1vw;
+    height:1vh;
     font-family: 'ZCOOL XiaoWei', serif;
     background-image: url(../images/Wallpaper1.jpg);
     background-size: cover;
