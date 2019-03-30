@@ -34,15 +34,13 @@ Create a new one or replace an existing one.
 ```
 
 ### Background and Theme colors: 
-<ol>
-  <li>To add a new background image put it in the images folder underneath Wallpaper[lastnumber+1] and make it jpg</li>
-  <li>Open up js/theme.js, and look for 
+
+To add a new background image put it in the images folder underneath Wallpaper[lastnumber+1] and make it jpg
+Open up js/theme.js, and look for 
 ``` javascript
   var currentBackground = getRandomIntInclusive(1, 2);//How many wallpapers on the right
 ```
     change the right side number to include your new wallpaper.
-  </li>
-  <li> 
     ### Color Theme
 ``` javascript
 var colors = [
@@ -57,7 +55,5 @@ var colors = [
     ['#DABEC3','#C1A7B1','#F3D9D7','#866E76', dark],  //Wallpaper2
     ['yourcolor','yourcolor','yourcolor','yourcolor', dark]  //Wallpaper3
 ];```    
-  </li>
-</ol>
 
 ### You're done, have fun.
