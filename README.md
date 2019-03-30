@@ -54,6 +54,7 @@ var colors = [
     ['#9E9CB1','#7A7994','#C0BCCD','#2C3350', dark], //Wallpaper1
     ['#DABEC3','#C1A7B1','#F3D9D7','#866E76', dark],  //Wallpaper2
     ['yourcolor','yourcolor','yourcolor','yourcolor', dark]  //Wallpaper3
-];```    
+];
+```    
 
 ### You're done, have fun.
