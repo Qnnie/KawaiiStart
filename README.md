@@ -32,6 +32,26 @@ Create a new one or replace an existing one.
     margin-top: -178px;
 }
 ```
+You will also need to copy paste the following but change it to your newly created category and color of choice.
+
+``` css
+#category-1 {
+    color: var(--color-1);
+}
+
+#category-1 ul li a {
+    background-image: linear-gradient(to right, var(--color-1) 0, var(--color-1) 100%);
+    background-position: 0 2em;
+    background-size: 0 5%;
+    background-repeat: no-repeat;
+    transition: background .5s;
+}
+
+#category-1 ul li a:hover {
+    color: var(--color-1);
+    background-size: 100% 2px;  
+}
+```
 
 ### Background and Theme colors: 
 
@@ -55,6 +75,7 @@ var colors = [
     ['#DABEC3','#C1A7B1','#F3D9D7','#866E76', dark],  //Wallpaper2
     ['yourcolor','yourcolor','yourcolor','yourcolor', dark]  //Wallpaper3
 ];
-```    
+```
+if you add more categories you'll need to also add those colors here and make new variables in the css file.
 
 ### You're done, have fun.
