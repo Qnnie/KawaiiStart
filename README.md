@@ -8,6 +8,7 @@ Features
     <li>Menu</li>
     <li>Clock</li>
     <li>Dynamic Backgrounds</li>
+    <li>Link Animations</li>
   </ul>
   
 Customize
