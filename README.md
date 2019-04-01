@@ -6,9 +6,10 @@ Features
 -------------------------------
   <ul>
     <li>Menu</li>
-    <li>Clock</li>
-    <li>Dynamic Backgrounds</li>
+    <li>Time Display</li>
+    <li>2 Themes</li>
     <li>Link Animations</li>
+    <li>Interactive Particles</li>
   </ul>
   
 Customize
