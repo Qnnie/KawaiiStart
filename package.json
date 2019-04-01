@@ -1,0 +1,23 @@
+{
+  "name": "WeebStartV2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qnnie/KawaiiStart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qnnie/KawaiiStart/issues"
+  },
+  "homepage": "https://Qnnie.github.io/WeebStartup",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
