@@ -63,6 +63,9 @@ body {
     border-radius: 15px;
     font-family: 'ZCOOL XiaoWei', serif;
     z-index: 1;
+    outline: none;
+    font-size: .6em;
+    padding-left: 3px;
 }
 
 #clock {
@@ -132,24 +135,51 @@ nav ul li ul li {
     color: var(--color-1);
 }
 
-#category-1 *:hover {
+#category-1 ul li a {
+    background-image: linear-gradient(to right, var(--color-1) 0, var(--color-1) 100%);
+    background-position: 0 2em;
+    background-size: 0 5%;
+    background-repeat: no-repeat;
+    transition: background .5s;
+}
+
+#category-1 ul li a:hover {
     color: var(--color-1);
+    background-size: 100% 2px;  
 }
 
 #category-2 {
     color: var(--color-2);
 }
 
-#category-2 *:hover {
+#category-2 ul li a {
+    background-image: linear-gradient(to right, var(--color-2) 0, var(--color-2) 100%);
+    background-position: 0 2em;
+    background-size: 0 5%;
+    background-repeat: no-repeat;
+    transition: background .5s;
+}
+
+#category-2 ul li a:hover {
     color: var(--color-2);
+    background-size: 100% 2px;  
 }
 
 #category-3 {
     color: var(--color-3);
 }
 
-#category-3 *:hover {
+#category-3 ul li a {
+    background-image: linear-gradient(to right, var(--color-3) 0, var(--color-3) 100%);
+    background-position: 0 2em;
+    background-size: 0 5%;
+    background-repeat: no-repeat;
+    transition: background .5s;
+}
+
+#category-3 ul li a:hover {
     color: var(--color-3);
+    background-size: 100% 2px;  
 }
 
 /*==================================*/
