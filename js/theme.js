@@ -3,16 +3,22 @@ function getRandomIntInclusive(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
 }
-var currentBackground = getRandomIntInclusive(1, 2);//How many wallpapers on the right
+
+/*FOR USER*/
+var category_1_Items = 3; //How Many Items are in each category? If you added another category create a new variable
+var category_2_Items = 4;
+var category_3_Items = 5;
+var currentBackground = getRandomIntInclusive(1, 2); //Number of wallpapers on the right
+////////////////////////////////////////////////////////////////////////////////////////
 document.body.style.background = 'url(./images/Wallpaper'+currentBackground+'.jpg)';
 document.body.style.backgroundSize = 'cover';
 
 //Grabs Colorscheme Equivalent
 // [First category, Second, Third, SearchBorder, Theme Dark/Light]
-//Dark Theme: rgba(26,26,26,.98)
-//Light Theme: rgba(196, 196, 196, 0.98)
+//Dark Theme: rgba(26,26,26,.98);
 var dark = 'rgba(26,26,26,.98)';
-var light = 'rgba(26,26,26,.98)';
+
+var categories = ['0px', '88px','133px','178px','223px','268px','313px','358px','403px']; //Removes the need to modify margin in css
 
 var colors = [
     ['#9E9CB1','#7A7994','#C0BCCD','#2C3350', dark], //Wallpaper1
@@ -26,4 +32,8 @@ root.style.setProperty("--color-2", colors[currentBackground][1]);
 root.style.setProperty("--color-3", colors[currentBackground][2]);
 root.style.setProperty("--color-4", colors[currentBackground][3]);
 root.style.setProperty("--menu-color", colors[currentBackground][4]);
+root.style.setProperty("--margin-c1", categories[category_1_Items]);
+root.style.setProperty("--margin-c2", categories[category_2_Items]);
+root.style.setProperty("--margin-c3", categories[category_3_Items]);
+
 

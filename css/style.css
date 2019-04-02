@@ -12,7 +12,9 @@
     --color-2: #7A7994;
     --color-3: #C0BCCD;
     --color-4: #2C3350;
-
+    --margin-c1: 178px;
+    --margin-c2: 178px;
+    --margin-c3: 223px;
 }
 
 * {
@@ -111,15 +113,15 @@ nav ul li ul {
 }
 
 #sub-menu-1 {
-    margin-top: -178px;
+    margin-top: calc(var(--margin-c1) * -1);
 }
 
 #sub-menu-2 {
-    margin-top: -178px;
+    margin-top: calc(var(--margin-c2) * -1);
 }
 
 #sub-menu-3 {
-    margin-top: -223px;
+    margin-top: calc(var(--margin-c3) * -1);
 }
 
 nav ul li:hover ul {
