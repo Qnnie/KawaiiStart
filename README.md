@@ -1,6 +1,7 @@
 # KawaiiStart
 
 <img src='images/preview.png'>
+
 IMPORTANT
 -------------------------------
 I am not updating the Master branch since it's redudant as the code is being hosted
