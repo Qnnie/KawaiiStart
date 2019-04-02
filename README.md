@@ -1,6 +1,10 @@
 # KawaiiStart
 
 <img src='images/preview.png'>
+IMPORTANT
+-------------------------------
+I am not updating the Master branch since it's redudant as the code is being hosted
+on gh-pages, please go to that branch to view the most recent updates. Thank you
 
 Features
 -------------------------------
@@ -27,12 +31,12 @@ Open index.html and look for <br>
  </li>
 ```
 Create a new one or replace an existing one.
--Note: You will have to open up css/style.css and edit the padding 
+-Note: You will have to open up js/theme.js and edit or create the categories like so
         on whatever you want. Example:
-``` css
-#sub-menu-1 {
-    margin-top: -178px;
-}
+``` javascript
+var category_1_Items = 3; //How Many Items are in each category? If you added another category create a new variable
+var category_2_Items = 4;
+var category_3_Items = 5;
 ```
 You will also need to copy paste the following but change it to your newly created category and color of choice.
 
