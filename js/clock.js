@@ -24,7 +24,7 @@ function startTime() {
   }
 
   function checkHour(h) {
-      if (h > 12) {
+      if (h >= 12) {
           h -= 12;
       }
       if (h >= 0 && h < 1) {
