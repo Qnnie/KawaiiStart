@@ -5,7 +5,20 @@
 IMPORTANT
 -------------------------------
 I am not updating the Master branch since it's redudant as the code is being hosted
-on gh-pages, please go to that branch to view the most recent updates. Thank you
+on gh-pages, please go to that branch to view the most recent updates. 
+Make changes to the "gh-pages" branch not the master.
+Thank you
+
+How To Use as startpage
+------------------------------
+<ol>
+          <li>Create github account</li>
+          <li>Fork repository</li>
+          <li>Go to the settings of your forked repo</li>
+          <li>Enable github pages by setting 'source' to gh-pages</li>
+          <li>Click on link provided to see your page</li>
+          <li>Go to your browser settings and enter custom 'on startup' link</li>
+</ol>    
 
 Features
 -------------------------------
